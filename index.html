@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bg-slide active">
+            <div class="circle bg">
+                <img src="img/temp1.jpg" alt="">
+            </div>
+            <div class="circle large">
+                <img src="img/temp1.jpg" alt="">
+            </div>
+            <div class="circle small">
+                <img src="img/temp1.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <div class="place">
+                    <h2>Temperatura</h2>
+                    <br><br>
+                    <div>
+                        <label for="">De</label>
+                        <select name="" id="seleccionT1">
+                            <option value="C">C°</option>
+                            <option value="F">F°</option>
+                        </select>
+                        <label>a:</label>
+                        <select name="" id="seleccionT2">
+                            <option value="F">F°</option>
+                            <option value="C">C°</option>
+                        </select>
+                        <br><br>
+                    </div>
+
+                    <div id="respuesta">
+                        <input type="number" id="valorT">
+                        <button id="btnT">Convertir</button>
+                        <br><br>
+                        <div id="mostrarTemp">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bg-slide">
+            <div class="circle bg">
+                <img src="img/dist2.jpg" alt="">
+            </div>
+            <div class="circle large">
+                <img src="img/dist2.jpg" alt="">
+            </div>
+            <div class="circle small">
+                <img src="img/dist2.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <div class="place">
+                    <h2>Distancia</h2>
+                    <br><br>
+                    <div>
+                        <label for="">De</label>
+                        <select name="" id="seleccionD1">
+                            <option value="metros">Metros</option>
+                            <option value="pies">Pies</option>
+                        </select>
+                        <label>a:</label>
+                        <select name="" id="seleccionD2">
+                            <option value="pies">Pies</option>
+                            <option value="metros">Metros</option>
+                        </select>
+                        <br><br>
+                    </div>
+
+                    <div id="respuesta">
+                        <input type="number" id="valorD">
+                        <button id="btnD">Convertir</button>
+                        <br><br>
+                        <div id="mostrarDist"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bg-slide">
+            <div class="circle bg">
+                <img src="img/pes6.jpg" alt="">
+            </div>
+            <div class="circle large">
+                <img src="img/pes6.jpg" alt="">
+            </div>
+            <div class="circle small">
+                <img src="img/pes6.jpg" alt="">
+            </div>
+            <div class="content" style="color: white;">
+                <div class="place">
+                    <h2>Peso</h2>
+                    <br><br>
+                    <div>
+                        <label for="">De</label>
+                        <select name="" id="seleccionP1">
+                            <option value="kg">kg</option>
+                            <option value="lb">lb</option>
+                        </select>
+                        <label>a:</label>
+                        <select name="" id="seleccionP2">
+                            <option value="lb">lb</option>
+                            <option value="kg">kg</option>
+                        </select>
+                        <br><br>
+                    </div>
+                    <div id="respuesta">
+                        <input type="number" id="valorP">
+                        <button id="btnP">Convertir</button>
+                        <br><br>
+                        <div id="mostrarPes"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rotate-btn" style="cursor: pointer;">
+            <i class='bx bx-rotate-right'></i>
+        </div>
+    </div>
+    <script src="js/diseign.js"></script>
+    <script src="js/conversor.js" type="module"></script>
+    <!-- <script src="../js/temperatura.js"></script> -->
+    <!-- <script src="../js/distancia.js"></script>
+    <script src="../js/peso.js"></script> -->
+</body>
+
+</html>
